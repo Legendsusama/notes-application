@@ -1,0 +1,100 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    padding: 4% 10% 10px;
+}
+
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container h1 img{
+    width: 50px;
+}
+
+.container button img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 20px;
+    background: linear-gradient(#9418fd, #571094);
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.notes {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.notes p {
+   
+    background-color : #4d4fc2;
+    max-width: 500px;
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    border: none;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.notes .delete-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+
+}
+
+.notes .delete-icon:hover {
+    background-color: #64c1e6;
+}
+
+.notes .delete-icon img{
+    width: 30px;
+}
